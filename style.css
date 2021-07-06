@@ -1,0 +1,124 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    color: rgba(85, 83, 83, 0.835);
+}
+
+#top-paragraph{
+    color: rgb(73, 70, 70);
+    font-size: 18px;
+    text-align: justify;
+}
+
+#order-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, navy , rgb(27, 139, 167));
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+#contact-button{
+    background-image: linear-gradient(to right, tomato, salmon);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+span{
+    color: rgb(15, 139, 170);
+}
+
+section{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.top-part{
+    width: 50%;
+    margin: 50px;
+}
+
+.top-part img{
+    width: 100%;
+}
+
+.recipe{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: rgb(73, 69, 69);
+}
+
+.food{
+    width: 33%;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+}
+
+.food img{
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.popularity{
+    width: 33%;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 50px; 
+    text-align: center;
+}
+
+.popular-clr{
+    color: black;
+}
+
+.link-button{
+    text-decoration: none;
+    color: rgb(46, 4, 4);
+    background-color: rgb(109, 199, 226);
+    padding: 15px 40px;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(255, 163, 209);
+    padding: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-section{
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    padding: 20px;
+}
+
+.menu{
+    margin-right: 180px;
+    padding: 20px;
+    background-image: url(images/shapes/banner1.jpg);
+    border-radius: 30px;
+}
+
+#our-recipe{
+    margin: 0;
+    background-color: rgb(211, 208, 208);
+    padding: 20px;
+}
